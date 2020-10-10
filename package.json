@@ -1,5 +1,5 @@
 {
-  "homepage": "https://jay-kakkad.github.io/personel-site", 
+  "homepage": "https://jay-kakkad.github.io/personel-site",
   "name": "v5",
   "description": "Personal Website Jay Kakkad",
   "version": "1.0.0",
@@ -19,7 +19,8 @@
     "start": "npm run develop",
     "serve": "gatsby serve",
     "clean": "gatsby clean",
-    "deploy": "npm run build && node ./deploy-github"
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "husky": {
     "hooks": {
@@ -81,7 +82,7 @@
     "eslint-plugin-jsx-a11y": "^6.2.3",
     "eslint-plugin-react": "^7.17.0",
     "gatsby-remark-code-titles": "^1.1.0",
-    "gh-pages": "^2.2.0",
+    "gh-pages": "^2.0.1",
     "husky": "^3.1.0",
     "lint-staged": "^9.5.0",
     "prettier": "^1.19.1"
