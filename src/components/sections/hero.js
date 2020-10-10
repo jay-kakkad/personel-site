@@ -4,7 +4,9 @@ import { CSSTransition, TransitionGroup } from 'react-transition-group';
 import { email } from '@config';
 import styled from 'styled-components';
 import { theme, mixins, media, Section } from '@styles';
+import ParticleComponent from "../ParticleComponent";
 const { colors, fontSizes, fonts } = theme;
+import Typical from 'react-typical';
 
 const StyledContainer = styled(Section)`
   ${mixins.flexCenter};
@@ -73,7 +75,13 @@ const Hero = ({ data }) => {
     <StyledTitle style={{ transitionDelay: '200ms' }}>{frontmatter.name}.</StyledTitle>
   );
   const three = () => (
-    <StyledSubtitle style={{ transitionDelay: '300ms' }}>{frontmatter.subtitle}</StyledSubtitle>
+    <StyledSubtitle style={{ transitionDelay: '300ms' }}>
+      <p>I'm a <Typical
+        steps={[1000,'Programmer', 2000, 'Developer', 2000, 'Thinker', 2000, 'Student', 2000]}
+        loop={Infinity}
+        wrapper="p"
+      /></p>
+    </StyledSubtitle>
   );
   const four = () => (
     <StyledDescription
@@ -91,6 +99,7 @@ const Hero = ({ data }) => {
 
   return (
     <StyledContainer>
+      <ParticleComponent />
       <TransitionGroup component={null}>
         {isMounted &&
           items.map((item, i) => (

@@ -2,16 +2,21 @@
 title: 'About Me'
 avatar: './me.jpg'
 skills:
-  - Ruby on Rails
-  - JavaScript (ES6+)
   - Python
+  - Java
+  - JavaScript (ES6+)
+  - Apache Spark
+  - Tensorflow
+  - MySQL
   - React
-  - MySql
-  - Unity
+  - Node.js
+  - MongoDB
 ---
 
-I am experienced in building software products from the ground up, strategizing product development and leading engineering teams. Motivated by product success and business growth I am an incisive decision-maker. As the first hire at [BlogVault](https://blogvault.net), I played a vital role in growing the company 20x in size and revenue.
+Hello! I'm Jay, a computer science graduate student at [Stony Brook University](https://www.cs.stonybrook.edu/) graduating in December 2020.
 
-I will be joining Amazon as a Summer Intern and am interested in full-time positions starting Jan 2021.
+I enjoy playing with data and building full-stack applications that live on internet. My goal is to alawys build products that are reliable, efficient, and better than exisiting solution.
+
+I have completed my Bachelor's in Computer Engineering from [K.J Somaiya College of Engineering](https://kjsce.somaiya.edu/en), Mumbai. Currently I am a graduate student researcher of Exscal Lab at Stony Brook University, working on graph neural network to develop large scale visual scene recognition using few shot detection.
 
 Here are a few technologies I've been working with recently:

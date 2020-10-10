@@ -5,6 +5,8 @@ import styled from 'styled-components';
 import { theme, media } from '@styles';
 const { colors } = theme;
 
+import Particles from 'react-particles-js';
+
 const StyledContainer = styled.div`
   width: 40px;
   position: fixed;

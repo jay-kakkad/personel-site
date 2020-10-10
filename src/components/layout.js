@@ -4,6 +4,7 @@ import PropTypes from 'prop-types';
 import { Head, Loader, Nav, Social, Email, Footer } from '@components';
 import styled from 'styled-components';
 import { GlobalStyle, theme } from '@styles';
+import ParticleComponent from "./ParticleComponent";
 const { colors, fontSizes, fonts } = theme;
 
 // https://medium.com/@chrisfitkin/how-to-smooth-scroll-links-in-gatsby-3dc445299558
@@ -87,6 +88,7 @@ const Layout = ({ children, location }) => {
           <Head metadata={site.siteMetadata} />
 
           <GlobalStyle />
+          
 
           <SkipToContent href="#content">Skip to Content</SkipToContent>
 
@@ -97,7 +99,7 @@ const Layout = ({ children, location }) => {
               <Nav isHome={isHome} />
               <Social isHome={isHome} />
               <Email isHome={isHome} />
-
+              
               <div id="content">
                 {children}
                 <Footer />

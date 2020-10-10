@@ -1,12 +1,11 @@
 ---
-date: 'Oct 11, 2014'
-title: 'TVPP'
-github: 'https://github.com/meshivam/tvpp'
-external: 'https://github.com/meshivam/tvpp'
+date: 'Jan 11, 2018'
+title: 'Car Classification Model'
+github: 'https://github.com/jay-kakkad/car_classification_using_cnn_and_resnet'
 tech:
-  - WordPress
-  - Plugin
+  - Python
+  - TensorFlow
 showInProjects: true
 ---
 
-Simplest way to add a minimizable video popup to footer.
+Developed image classification model using CNN and Resnet.

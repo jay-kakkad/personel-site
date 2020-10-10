@@ -1,34 +1,34 @@
 module.exports = {
-  siteTitle: 'Shivam Singh | Software Engineer',
+  siteTitle: 'Jay Kakkad | Software Engineer',
   siteDescription:
-    'Shivam Singh is a software engineer based in New York who specializes in developing exceptional, high-quality websites and applications.',
+    'Jay Kakkad is a software engineer based in New York who specializes in developing exceptional, high-quality websites and applications.',
   siteKeywords:
-    'Shivam, Singh, Shivam Singh, software, engineer, blogvault, bangalore, front-end, web developer, javascript, rails, ruby, stony brook, SBU, stony brook university',
-  siteUrl: 'https://singhshivam.github.io',
+    'Jay, Kakkad, Jay Kakkad, software, engineer, machine learning, data engineering, data science, data, back-end, front-end, web developer, javascript, python, java, stony brook, SBU, SQL, stony brook university',
+  siteUrl: 'https://jay-kakkad.github.io',
   siteLanguage: 'en_US',
   googleAnalyticsID: 'UA-51909229-3',
   googleVerification: 'vkyfk7CckGwWaXxLjPGquRktAAjyUg_P68NSvszOUnU',
-  name: 'Shivam Singh',
+  name: 'Jay Kakkad',
   location: 'Stony Brook, NY',
-  email: 'singhshivam.172@gmail.com',
-  github: 'https://github.com/singhshivam',
-  twitterHandle: '@s6s5a2',
+  email: 'jpkakkad97@gmail.com',
+  github: 'https://github.com/jay-kakkad',
+  twitterHandle: '@jpkakkad',
   socialMedia: [
     {
       name: 'GitHub',
-      url: 'https://github.com/singhshivam',
+      url: 'https://github.com/jay-kakkad',
     },
     {
       name: 'Linkedin',
-      url: 'https://www.linkedin.com/in/singhshivam172',
+      url: 'https://www.linkedin.com/in/jay-kakkad',
     },
     {
       name: 'Instagram',
-      url: 'https://www.instagram.com/singh404',
+      url: 'https://www.instagram.com/jay_kakkad',
     },
     {
       name: 'Twitter',
-      url: 'https://twitter.com/s6s5a2',
+      url: 'https://twitter.com/jpkakkad',
     },
   ],
 
@@ -53,7 +53,7 @@ module.exports = {
 
   navHeight: 100,
   greenColor: '#64ffda',
-  navyColor: '#0a192f',
+  navyColor: '#FFF40F',
   darkNavyColor: '#020c1b',
 
   srConfig: (delay = 200) => ({
